@@ -1,0 +1,180 @@
+{
+  "Echo":{
+		"Research":"Close range",
+		"Type":"Shotgun",
+		"Fire_Mode":"Semi Auto",
+		"Damage":90,
+		"Stun_Power":"very high",
+		"Hipfire_Range":7,
+		"ADS_Range":7.7,
+		"Stability":"low",
+		"Rate_of_Fire":1.7,
+		"Mobility":"very high",
+		"Clip_Size":6,
+		"Lore":"Missing",
+		"Description":"Unwiedly Weapon,
+		 Aiming and firing cost Stamina"
+ },
+
+  "Psychopomp":{
+		"Research":"Close range",
+		"Type":"Shotgun",
+		"Fire_Mode":"Semi Auto",
+		"Damage":38,
+		"Stun_Power":"very high",
+		"Hipfire_Range":15,
+		"ADS_Range":21,
+		"Stability":"low",
+		"Rate_of_Fire":2.8,
+		"Mobility":"very high",
+		"Clip_Size":6,
+		"Lore":"Missing",
+		"Description":"Fast firing,
+		 regenerates more than ammo. Uses Stamina"
+ },
+
+  "Cricket":{
+		"Research":"Close range",
+		"Type":"Machine Pistol",
+		"Fire_Mode":"Auto",
+		"Damage":18,
+		"Stun_Power":"very low",
+		"Hipfire_Range":7,
+		"ADS_Range":7.7,
+		"Stability":"low",
+		"Rate_of_Fire":10,
+		"Mobility":"very high",
+		"Clip_Size":20,
+		"Lore":"Missing",
+		"Description":""
+},
+
+  "Hangfire":{
+		"Research":"Close range",
+		"Type":"Hand Canon",
+		"Fire_Mode":"Auto",
+		"Damage":38,
+		"Stun_Power":"very high",
+		"Hipfire_Range":15,
+		"ADS_Range":21,
+		"Stability":"low",
+		"Rate_of_Fire":2.8,
+		"Mobility":"very high",
+		"Clip_Size":6,
+		"Lore":"Missing",
+		"Description":"Fires slugs that detonate on command with a reload"
+},
+
+  "Midas":{
+		"Research":"Medium range",
+		"Type":"Auto Rifle",
+		"Fire_Mode":"Auto",
+		"Damage":9,
+		"Stun_Power":"low",
+		"Hipfire_Range":17,
+		"ADS_Range":25.5,
+		"Stability":"",
+		"Rate_of_Fire":null,
+		"Mobility":"",
+		"Clip_Size":30,
+		"Lore":"Missing",
+		"Description":""
+},
+
+  "Ricochet":{
+		"Research":"Medium range",
+		"Type":"Auto Rifle",
+		"Fire_Mode":"Auto",
+		"Damage":38,
+		"Stun_Power":"very high",
+		"Hipfire_Range":15,
+		"ADS_Range":21,
+		"Stability":"low",
+		"Rate_of_Fire":2.8,
+		"Mobility":"very high",
+		"Clip_Size":6,
+		"Lore":"Missing",
+		"Description":"Bullets ricochet among marked enemies"
+},
+
+  "Hunger":{
+		"Research":"Medium range",
+		"Type":"Hand Canon",
+		"Fire_Mode":"Semi Auto",
+		"Damage":38,
+		"Stun_Power":"very high",
+		"Hipfire_Range":15,
+		"ADS_Range":21,
+		"Stability":"low",
+		"Rate_of_Fire":2.8,
+		"Mobility":"very high",
+		"Clip_Size":6,
+		"Lore":"Missing",
+		"Description":""
+},
+
+  "All-Seeing Eye":{
+		"Research":"Long range weapon",
+		"Type":"Bolt Action Rifle",
+		"Fire_Mode":"Semi Auto",
+		"Damage":32,
+		"Stun_Power":"average",
+		"Hipfire_Range":18,
+		"ADS_Range":32.4,
+		"Stability":"high",
+		"Rate_of_Fire":0.8,
+		"Mobility":"low",
+		"Clip_Size":5,
+		"Lore":"Missing",
+		"Description":""
+},
+
+  "Hailstorm":{
+		"Research":"Long range weapon",
+		"Type":"Sniper Rifle",
+		"Fire_Mode":"Semi Auto",
+		"Damage":100,
+		"Stun_Power":"average",
+		"Hipfire_Range":15,
+		"ADS_Range":67.5,
+		"Stability":"very low",
+		"Rate_of_Fire":0.8,
+		"Mobility":"very low",
+		"Clip_Size":5,
+		"Lore":"Missing",
+		"Description":"Unwiedly Weapon,
+		 Aiming and firing cost Stamina"
+ },
+
+  "Vulture":{
+		"Research":"Demonic",
+		"Type":"Crossbow",
+		"Fire_Mode":"Semi Auto",
+		"Damage":200,
+		"Stun_Power":"average",
+		"Hipfire_Range":20,
+		"ADS_Range":24,
+		"Stability":"high",
+		"Rate_of_Fire":0.5,
+		"Mobility":"medium",
+		"Clip_Size":5,
+		"Lore":"Missing",
+		"Description":""
+},
+
+  "Falling Star":{
+		"Research":"Demonic",
+		"Type":"Grenade Launcher",
+		"Fire_Mode":"Single Fire",
+		"Damage":38,
+		"Stun_Power":"very high",
+		"Hipfire_Range":15,
+		"ADS_Range":21,
+		"Stability":"low",
+		"Rate_of_Fire":2.8,
+		"Mobility":"very high",
+		"Clip_Size":6,
+		"Lore":"Missing",
+		"Description":""
+		}
+}
