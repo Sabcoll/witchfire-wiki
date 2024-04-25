@@ -1,3 +1,9 @@
+If you download this repo, don't forget to include the wiki_account_me.json in your .gitignore!
+
+
+
+# ORIGINAL
+
 ## About
 Example wiki creation / updating scripts, using [mwcleric](https://github.com/RheingoldRiver/mwcleric)
 
