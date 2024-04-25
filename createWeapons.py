@@ -27,7 +27,7 @@ class Creator:
         credentials = AuthCredentials(user_file="me")
         self.site = WikiggClient('witchfire.wiki.gg', credentials=credentials)
         self.summary = 'Tabber -> Gallery'
-        with open('items.json', 'r', encoding='utf-8') as f:
+        with open('weapons.json', 'r', encoding='utf-8') as f:
             self.data = json.load(f)
 
     def run(self):
@@ -46,9 +46,7 @@ class Creator:
                 Mobility=v['Mobility'], 
                 Clip_Size=v['Clip_Size'], 
                 Lore=v['Lore'], 
-                Description=v['Description'], 
-                recipe=self.get_recipe_text(v),
-                builds_into=self.get_builds_into_text(k)
+                Description=v['Description'] 
             ))
 
 if __name__ == '__main__':
