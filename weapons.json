@@ -12,8 +12,7 @@
 		"Mobility":"very high",
 		"Clip_Size":6,
 		"Lore":"Missing",
-		"Description":"Unwiedly Weapon,
-		 Aiming and firing cost Stamina"
+		"Description":"Unwiedly Weapon, Aiming and firing cost Stamina"
  },
 
   "Psychopomp":{
@@ -29,8 +28,7 @@
 		"Mobility":"very high",
 		"Clip_Size":6,
 		"Lore":"Missing",
-		"Description":"Fast firing,
-		 regenerates more than ammo. Uses Stamina"
+		"Description":"Fast firing, regenerates more than ammo. Uses Stamina"
  },
 
   "Cricket":{
@@ -142,8 +140,7 @@
 		"Mobility":"very low",
 		"Clip_Size":5,
 		"Lore":"Missing",
-		"Description":"Unwiedly Weapon,
-		 Aiming and firing cost Stamina"
+		"Description":"Unwiedly Weapon, Aiming and firing cost Stamina"
  },
 
   "Vulture":{
