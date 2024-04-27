@@ -1,0 +1,16 @@
+{
+    "Stigma Biabolicum":{"Type":"Light Spell","Lore":"","Power":"A cyst that attaches to enemies, becoming their additional weak spot."},
+    "Fireballs":{"Type":"Light Spell","Lore":"","Power":"Three Fireballs homing in onto multiple enemies."},
+    "Frost Cone":{"Type":"Light Spell","Lore":"","Power":"An icy cloud that freezes any enemies on its path."},
+    "Lightning Bolt":{"Type":"Light Spell","Lore":"","Power":"A lightning bolt that knocks back and shocks enemies."},
+    "Blight Cyst":{"Type":"Light Spell","Lore":"","Power":"A cyst that attaches to the environment or enemies. Explodes after a while but can be shot for a more powerful explosion."},
+    "Shockwave":{"Type":"Light Spell","Lore":"","Power":"A shockwave that stuns nearby Minor enemies and exhausted Major ones."},
+    "Ice Stiletto":{"Type":"Light Spell","Lore":"","Power":"An icy stiletto that freezes the targeted enemy."},
+    "Ice Sphere":{"Type":"Heavy Spell","Lore":"","Power":"Spawns an icy sphere that protects the caster from damage and freezes any enemy that gets inside it."},
+    "Iron Cross":{"Type":"Heavy Spell","Lore":"","Power":"Spawns an iron cross with lightning bolts that bind all nearby enemies to it."},
+    "Cursed Bell":{"Type":"Heavy Spell","Lore":"","Power":"Spawns a cursed bell. Firing at the bell tolls it, stunning all neraby Minor enemies."},
+    "Rotten Fiend":{"Type":"Heavy Spell","Lore":"","Power":"Resurrects a Grenadier who now attacks his former allies with incredible ferocity."},
+    "Cornucopia":{"Type":"Heavy Spell","Lore":"","Power":"The last bullet regenerates right after firing. Manual reload can still be executed. Does not work with Demonic Weapons."},
+    "Burning Stake":{"Type":"Heavy Spell","Lore":"","Power":"Spawns a burning stake that ignite enemies. Damaging them charges the stake. Full charged, the stake releases a firey explosion"}
+  }
+  
