@@ -142,6 +142,21 @@
 		"Lore":"Missing",
 		"Description":"Unwiedly Weapon, Aiming and firing cost Stamina"
  },
+	 "Hypnosis":{
+		"Research":"Long Range",
+		"Type":"Bolt Action Rifle",
+		"Fire_Mode":"Semi Auto",
+		"Damage":80,
+		"Stun_Power":"average",
+		"Hipfire_Range":20,
+		"ADS_Range":36,
+		"Stability":"low",
+		"Rate_of_Fire":0.9,
+		"Mobility":"medium",
+		"Clip_Size":10,
+		"Lore":"Missing",
+		"Description":"Rewards a patient marksman with increased damage"
+},
 
   "Vulture":{
 		"Research":"Demonic",
