@@ -8,6 +8,7 @@ WIKITEXT = """{{{{Spell Infobox
 |Type={Type}
 |Lore={Lore}
 |Power={Power}
+|Source={Source}
 }}}}"""
 
 
@@ -24,7 +25,8 @@ class Creator:
             self.site.client.pages[string.capwords(k)].save(WIKITEXT.format(
                 Type=v['Type'],              
                 Lore=v['Lore'], 
-                Power=v['Power'] 
+                Power=v['Power'],
+                Source=v['Source']
             ))
 
 if __name__ == '__main__':

@@ -18,6 +18,7 @@ WIKITEXT = """{{{{Weapon Infobox
 |ClipSize={ClipSize}
 |Lore={Lore}
 |Description={Description}
+|HeadshotMP={HeadshotMP}
 }}}}"""
 
 
@@ -42,9 +43,10 @@ class Creator:
                 Stability=v['Stability'], 
                 RateOfFire=v['Rate_of_Fire'], 
                 Mobility=v['Mobility'], 
-                Clip_Size=v['Clip_Size'], 
+                ClipSize=v['Clip_Size'], 
                 Lore=v['Lore'], 
-                Description=v['Description'] 
+                Description=v['Description'],
+                HeadshotMP=v['Headshot_Multiplier']
             ))
 
 if __name__ == '__main__':
