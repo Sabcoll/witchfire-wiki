@@ -9,6 +9,7 @@ WIKITEXT = """{{{{Spell Infobox
 |Lore={Lore}
 |Power={Power}
 |Source={Source}
+|Element={Element}
 }}}}"""
 
 
@@ -26,7 +27,8 @@ class Creator:
                 Type=v['Type'],              
                 Lore=v['Lore'], 
                 Power=v['Power'],
-                Source=v['Source']
+                Source=v['Source'],
+                Element=v['Element']
             ))
 
 if __name__ == '__main__':

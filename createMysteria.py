@@ -20,7 +20,6 @@ WIKITEXT = """{{{{Mysteria Infobox
 }}}}"""
 
 
-
 class Creator:
     def __init__(self):
         credentials = AuthCredentials(user_file="me")

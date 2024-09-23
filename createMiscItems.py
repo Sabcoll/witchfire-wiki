@@ -5,7 +5,6 @@ from mwcleric import AuthCredentials
 from mwcleric import WikiggClient
 
 WIKITEXT = """{{{{MiscItem Infobox
-|Name={Name}
 |Type={Type}
 |Description={Description}
 |Lore={Lore}
@@ -27,8 +26,7 @@ class Creator:
     def run(self):
         PAGETEXT = ''
         for k, v in self.data.items():
-            PAGETEXT = PAGETEXT + WIKITEXT.format(
-                Name=k,           
+            self.site.client.pages[string.capwords(k)].save(WIKITEXT.format(           
                 Type=v['Type'],
                 Description=v['Description'],
                 Lore=v['Lore'],
@@ -36,7 +34,7 @@ class Creator:
                 Purchasable=v['Purchasable'],
                 Price=v['Price'],
                 Worth=v['Worth']
-            )
+            ))
         self.site.client.pages['MiscItem Infobox'].save(PAGETEXT)
 
 if __name__ == '__main__':

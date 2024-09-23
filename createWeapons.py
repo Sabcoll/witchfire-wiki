@@ -19,6 +19,7 @@ WIKITEXT = """{{{{Weapon Infobox
 |Lore={Lore}
 |Description={Description}
 |HeadshotMP={HeadshotMP}
+|Element={Element}
 }}}}"""
 
 
@@ -46,7 +47,8 @@ class Creator:
                 ClipSize=v['Clip_Size'], 
                 Lore=v['Lore'], 
                 Description=v['Description'],
-                HeadshotMP=v['Headshot_Multiplier']
+                HeadshotMP=v['Headshot_Multiplier'],
+                Element=v['Element']
             ))
 
 if __name__ == '__main__':
