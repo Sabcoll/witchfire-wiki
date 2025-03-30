@@ -5,10 +5,14 @@ from mwcleric import AuthCredentials
 from mwcleric import WikiggClient
 
 WIKITEXT = """{{{{Weapon Infobox
-|Research={Research}
+|WRange={WRange}
 |Type={Type}
+|Starter={Starter}
+|Source={Source}
+|Element={Element}
 |FireMode={FireMode}
 |Damage={Damage}
+|HeadshotMP={HeadshotMP}
 |StunPower={StunPower}
 |HipfireRange={HipfireRange}
 |ADSRange={ADSRange}
@@ -16,10 +20,11 @@ WIKITEXT = """{{{{Weapon Infobox
 |RateOfFire={RateOfFire}
 |Mobility={Mobility}
 |ClipSize={ClipSize}
+|AmmoReserves={AmmoReserves}
 |Lore={Lore}
 |Description={Description}
-|HeadshotMP={HeadshotMP}
-|Element={Element}
+
+
 }}}}"""
 
 
@@ -34,21 +39,24 @@ class Creator:
     def run(self):
         for k, v in self.data.items():
             self.site.client.pages[string.capwords(k)].save(WIKITEXT.format(
-                Research=v['Research'],
-                Type=v['Type'],              
-                FireMode=v['Fire_Mode'], 
-                Damage=v['Damage'], 
-                StunPower=v['Stun_Power'], 
-                HipfireRange=v['Hipfire_Range'], 
-                ADSRange=v['ADS_Range'], 
-                Stability=v['Stability'], 
-                RateOfFire=v['Rate_of_Fire'], 
-                Mobility=v['Mobility'], 
-                ClipSize=v['Clip_Size'], 
-                Lore=v['Lore'], 
-                Description=v['Description'],
+                WRange=v['WRange'],
+                Type=v['Type'],
+                Starter=v['Starter'],
+                Source=v['Source'],
+                Element=v['Element'],
+                FireMode=v['Fire_Mode'],
+                Damage=v['Damage'],
                 HeadshotMP=v['Headshot_Multiplier'],
-                Element=v['Element']
+                StunPower=v['Stun_Power'],
+                HipfireRange=v['Hipfire_Range'],
+                ADSRange=v['ADS_Range'],
+                Stability=v['Stability'],
+                RateOfFire=v['Rate_of_Fire'],
+                Mobility=v['Mobility'],
+                ClipSize=v['Clip_Size'],
+                AmmoReserves=v['Ammo_Reserves'],
+                Lore=v['Lore'],
+                Description=v['Description']
             ))
 
 if __name__ == '__main__':

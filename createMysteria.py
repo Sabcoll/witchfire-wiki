@@ -31,6 +31,18 @@ class Creator:
     def run(self):
         PAGETEXT = ''
         for k, v in self.data.items():
+            if v['Name'] == "":
+                v['Name'] = prevName
+
+            if v['Mysterium'] == 'I': 
+                v['Mysterium'] = 1
+
+            elif v['Mysterium'] == "II": 
+                v['Mysterium'] = 2
+
+            elif v['Mysterium'] == "III": 
+                v['Mysterium'] = 3 
+
             PAGETEXT = PAGETEXT + WIKITEXT.format(
                 RowNo=k,
                 Name=v['Name'],             
@@ -45,6 +57,8 @@ class Creator:
                 Charismata4=v['Charismata_4'],
                 Charismata5=v['Charismata_5'],
             )
+            if v['Name'] != "":
+                prevName = v['Name']
         self.site.client.pages['Mysteria Infobox'].save(PAGETEXT)
 
 if __name__ == '__main__':

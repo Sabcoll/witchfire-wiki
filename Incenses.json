@@ -1,0 +1,12 @@
+{
+    "Restoration Incense":{"Effect":"Slowly regenerates health when below 25%","Ing1_Amount":2,"Ingredient_1":"Angelica","Ing2_Amount":null,"Ingredient_2":"","Location":"Hermitorium","Source":"","Note":""},
+    "Bloodthirst Incense":{"Effect":"Headshots may restore health. Weapons with smaller magazines have higher healing chances.","Ing1_Amount":3,"Ingredient_1":"Eryngium","Ing2_Amount":2,"Ingredient_2":"Maiden's Hair","Location":"Irongate Castle","Source":"Central Hall","Note":""},
+    "Potency Incense":{"Effect":"Healing effects restore an additional 5 HP.","Ing1_Amount":1,"Ingredient_1":"Blood Lily","Ing2_Amount":4,"Ingredient_2":"Corpse Wax","Location":"Island of the Damned","Source":"Bonsaire","Note":""},
+    "Conjurer Incense":{"Effect":"Spellcasting restores minor health","Ing1_Amount":1,"Ingredient_1":"Moonflower","Ing2_Amount":3,"Ingredient_2":"Charred Bone","Location":"Scarlet Coast","Source":"Wiseman's Recess","Note":""},
+    "Wellspring Incense":{"Effect":"Absorbing Manifestations increases maximum health","Ing1_Amount":1,"Ingredient_1":"Angelica","Ing2_Amount":1,"Ingredient_2":"Corpse Wax","Location":"Scarlet Coast","Source":"Survivors' Refuge","Note":""},
+    "Resilience Incense":{"Effect":"Elixirs heal slower but reduce damage by 50% while active.","Ing1_Amount":2,"Ingredient_1":"Charred Bone","Ing2_Amount":3,"Ingredient_2":"Blackened Salt","Location":"Irongate Castle","Source":"Crumbling Archway","Note":""},
+    "Patience Incense":{"Effect":"Elixirs heal slower but restore more health","Ing1_Amount":2,"Ingredient_1":"Angelica","Ing2_Amount":1,"Ingredient_2":"Eryngium","Location":"Hermitorium","Source":"","Note":""},
+    "Transmutation Incense":{"Effect":"Elixirs restore less health but Manifestations restore more.","Ing1_Amount":2,"Ingredient_1":"Blood Lily","Ing2_Amount":2,"Ingredient_2":"Maiden's Hair","Location":"Scarlet Coast","Source":"Quarry","Note":""},
+    "Bulwark Incense":{"Effect":"Shields have 30% chance to withstand hits.","Ing1_Amount":1,"Ingredient_1":"Moonflower","Ing2_Amount":2,"Ingredient_2":"Angelica","Location":"Irongate Castle","Source":"Cul De Sac","Note":"One Discord memeber Uteh (160386758901628929) reported 90% proc rate, perhaps this is when combined with Upgraded Monkshood. If Combined with M3 Monkshood:- multiplicatively this results in 121% Shield chance - additively 100% shield chance- Seperate Proc chance 79% Shield chance. So they are probably proc'd sepeartely."}
+  }
+  

@@ -10,6 +10,7 @@ WIKITEXT = """{{{{Prophecy Infobox
 |Omen={Omen}
 |Omen_Effect={Omen_Effect}
 |Source={Source}
+|UnlockedArcanum={UnlockedArcanum}
 }}}}"""
 
 class Creator:
@@ -29,6 +30,7 @@ class Creator:
                 Omen=v['Omen'],
                 Omen_Effect=v['Omen_Effect'],
                 Source=v['Source'],
+                UnlockedArcanum=v['Unlocked_Arcanum'],
 )
         self.site.client.pages['Prophecy Infobox'].save(PAGETEXT)
 

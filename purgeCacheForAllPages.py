@@ -1,5 +1,6 @@
 import json
 import string
+import time
 
 from mwcleric import AuthCredentials
 from mwcleric import WikiggClient
@@ -14,6 +15,7 @@ class Creator:
         for k in self.site.client.allpages(namespace=0):
             self.site.purge(k)
             print('Purging: ',k)
+            time.sleep(0.1)
 
 
 if __name__ == '__main__':

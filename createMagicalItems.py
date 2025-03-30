@@ -6,10 +6,11 @@ from mwcleric import WikiggClient
 
 WIKITEXT = """{{{{MagicalItem Infobox
 |Type={Type}
-|Lore={Lore}
-|Power={Power}
-|Source={Source}
 |Element={Element}
+|Starter={Starter}
+|Source={Source}
+|Power={Power}
+|Lore={Lore}
 }}}}"""
 
 
@@ -28,7 +29,8 @@ class Creator:
                 Lore=v['Lore'], 
                 Power=v['Power'],
                 Source=v['Source'], 
-                Element=v['Element']  
+                Element=v['Element'],
+                Starter=v['Starter']
             ))
 
 if __name__ == '__main__':

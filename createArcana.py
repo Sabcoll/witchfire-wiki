@@ -9,6 +9,7 @@ WIKITEXT = """{{{{ArcanaInfobox
 |Type={Type}
 |Description={Description}
 |Charismata={Charismata}
+|Prophecy={Prophecy}
 }}}}"""
 
 
@@ -28,7 +29,8 @@ class Creator:
                 Name=k,              
                 Type=v['Arcanum_Type'], 
                 Description=v['Description'],
-                Charismata=v['Charismata']
+                Charismata=v['Charismata'],
+                Prophecy=v['Prophecy']
             )
         self.site.client.pages['ArcanaInfobox'].save(PAGETEXT)
 
