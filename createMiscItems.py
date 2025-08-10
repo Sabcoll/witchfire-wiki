@@ -17,10 +17,10 @@ WIKITEXT = """{{{{MiscItem Infobox
 
 class Creator:
     def __init__(self):
-        credentials = AuthCredentials(user_file="me")
+        credentials = AuthCredentials(user_file="CargoBot")
         self.site = WikiggClient('witchfire', credentials=credentials)
         #self.summary = 'Tabber -> Gallery'
-        with open('MiscItem.json', 'r', encoding='utf-8') as f:
+        with open('MiscItem2.json', 'r', encoding='utf-8') as f:
             self.data = json.load(f)
 
     def run(self):
@@ -35,6 +35,7 @@ class Creator:
                 Price=v['Price'],
                 Worth=v['Worth']
             ))
+            
         self.site.client.pages['MiscItem Infobox'].save(PAGETEXT)
 
 if __name__ == '__main__':

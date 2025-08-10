@@ -22,7 +22,7 @@ WIKITEXT = """{{{{Mysteria Infobox
 
 class Creator:
     def __init__(self):
-        credentials = AuthCredentials(user_file="me")
+        credentials = AuthCredentials(user_file="CargoBot")
         self.site = WikiggClient('witchfire', credentials=credentials)
         #self.summary = 'Tabber -> Gallery'
         with open('mysteria.json', 'r', encoding='utf-8') as f:

@@ -7,7 +7,7 @@ from mwcleric import WikiggClient
 
 class Creator:
     def __init__(self):
-        credentials = AuthCredentials(user_file="me")
+        credentials = AuthCredentials(user_file="CargoBot")
         self.site = WikiggClient('witchfire', credentials=credentials)
         #self.summary = 'Tabber -> Gallery'
 
